@@ -1,0 +1,5 @@
+For iAddVal from 1 to 50 step 1
+	Calculate iName as con("w_",iAddVal)
+	Do $clib.$windows.$add(iName) Returns iRef
+	Do iRefList.$add(iRef)
+End For
