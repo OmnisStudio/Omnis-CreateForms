@@ -1,3 +1,0 @@
-For iRemoveVal from 1 to 50 step 1
-	Do $clib.$windows.$remove(iRefList.[iRemoveVal].C1)
-End For
